@@ -1,6 +1,6 @@
 :root {
     --color-primary: #6f6af8;
-    --color-primary-light: hsl(242, 91%, 69, 18%);
+    --color-primary-light: hsl(242, 91%, 69%, 18%);
     --color-primary-variant: #5854c7;
     --color-red: #da0f3f;
     --color-red-light: hsl(346, 87%, 46%, 15%);
@@ -21,8 +21,8 @@
 
     --card-border-radius-1: 0.3rem;
     --card-border-radius-2: .5rem;
-    --card-border-radius-3:.8rem
-    --card-border-radius-4:2rem;
+    --card-border-radius-3: .8rem
+    --card-border-radius-4: 2rem;
     --card-border-radius-5: 5rem;
 }
 
@@ -40,7 +40,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
-    color: var(--color-gray-900);
+    color: var(--color-gray-200);
     overflow-x: hidden;
     background: var(--color-bg);
     font-size: 0.9rem;
@@ -54,7 +54,7 @@ body {
 
 section {
     margin-top: 3rem;
-    width: 100vh;
+    width: 100vw;
 }
 
 h1, h2, h3, h4, h5 {
@@ -169,3 +169,66 @@ nav button {
     background: var(--color-red);
     color: var(--color-bg);
 }
+/* section featureredd*/
+
+.category__button {
+    background: var(--color-primary-light);
+    color: var(--color-primary);
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: var(--card-border-radius-2);
+    font-weight: 600;
+    font-size: .8rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.category__button:hover {
+    color: var(--color-white);
+}
+
+/*general post styles */
+.post__thumbnail {
+    border-radius: var(--card-border-radius-5) 0;
+    border: 1rem solid var(--color-gray-900);
+    overflow: hidden;
+    margin-bottom: 1.6rem;
+}
+
+.post:hover .post__thumbnail img {
+filter: saturate(0);
+transition: filter 500ms ease;
+}
+
+
+.post__author {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.2rem;
+}
+
+.post__author-avatar {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: var(--card-border-radius-3);
+    overflow: hidden;
+
+}
+
+/* ================ featured  ============================= */
+
+.featured {
+    margin-top: 8rem;
+
+}
+
+.featured__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.featured .post__thumbnail {
+    height: fit-content;
+}
+
