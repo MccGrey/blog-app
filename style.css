@@ -232,3 +232,11 @@ transition: filter 500ms ease;
     height: fit-content;
 }
 
+/* post */
+
+.posts__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
