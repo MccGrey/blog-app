@@ -89,6 +89,7 @@ a {
 img {
     display: block;
     object-fit: cover;
+    
     width: 100%;
 
 }
@@ -214,7 +215,6 @@ transition: filter 500ms ease;
     overflow: hidden;
 
 }
-
 /* ================ featured  ============================= */
 
 .featured {
@@ -288,4 +288,34 @@ footer {
 .footer__socials a:hover {
     background: var(--color-white);
     color: var(--color-bg);
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+footer h4 {
+    color: var(--color-white);
+    margin-bottom: .6rem;
+}
+
+footer ul li {
+    padding: 0.4rem 0;
+}
+
+footer ul a {
+    opacity: .75;
+}
+
+footer ul a:hover {
+    letter-spacing: .2rem;
+    opacity: 1;
+}
+
+.footer__copyright {
+    text-align: center;
+    padding: 1.5rem 0;
+    border-top: 2px solid var(--color-bg);
+    margin-top: 4rem;
 }
