@@ -319,6 +319,58 @@ footer ul a:hover {
     border-top: 2px solid var(--color-bg);
     margin-top: 4rem;
 }
+/* search bar */
+.search__bar {
+    margin-top: 7rem;
+}
+
+.search__bar-container {
+    width: 30rem;
+    position: relative;
+    background: var(--color-gray-900);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: .6rem 1rem;
+    border-radius: var(--card-border-radius-2);
+    color: var(--color-gray-300);
+
+}
+
+.search__bar-container > div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.search__bar input {
+    background: transparent;
+    margin-left: .7rem;
+    padding: .5rem 0;
+    width: 100%;
+}
+
+.search__bar input::placeholder {
+    color: var(--color-gray-300);
+}
+
+/* button style */
+.btn {
+    display: inline-block;
+    width: fit-content;
+    padding: .6rem 1.2rem;
+    background-color: var(--color-primary);
+    border-radius: var(--card-border-radius-2);
+    cursor: pointer;
+    transition: var(--transition);
+    color: var(--color-white);
+}
+.btn:hover {
+background: var(--color-white);
+color: var(--color-primary);
+}
+
 
 /* responasiveness mediusm devices */
 
