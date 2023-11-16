@@ -211,7 +211,7 @@ transition: filter 500ms ease;
 .post__author-avatar {
     width: 2.5rem;
     height: 2.5rem;
-    border-radius: var(--card-border-radius-3);
+    border-radius: var(--card-border-radius-2);
     overflow: hidden;
 
 }
