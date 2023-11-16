@@ -35,6 +35,7 @@
     list-style: none;
     appearance: 0;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -409,6 +410,7 @@ color: var(--color-primary);
 
 /* general form */
 .form__section {
+    margin-top: 5rem;
     display: grid;
     place-items: center;
     height: 100vh;
@@ -594,14 +596,22 @@ animation-delay: 400ms;
 .footer__container {
     grid-template-columns: 1fr 1fr; 
 }
-}
-
 /* blog search medu=ium device */
 
-    .search__bar-container {width: 60%;
+.search__bar-container {
+    width: 60%;
 
    
 }
+/* form medu=ium device */
+.form__section-container {
+    padding: 3rem;
+}
+
+}
+
+
+ 
 
 
 
@@ -646,9 +656,15 @@ animation-delay: 400ms;
    
     }
 
-    /* single post responasiveness mediusm devices */
+    /* single post responasiveness small devices */
 .singlepost__container {
     background: transparent;
     padding: 0;
 }
+
+/* form small devices */
+.form__section-container {
+    padding: 0;
+}
+
 }
