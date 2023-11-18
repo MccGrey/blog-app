@@ -272,10 +272,6 @@ transition: filter 500ms ease;
 
 /* post */
 
-.posts {
-     padding: 2rem 0;
-    border-top: 2px solid var(--color-gray-900);
-}
 
 .posts__container {
     display: grid;
@@ -289,6 +285,8 @@ transition: filter 500ms ease;
     margin-bottom: 2rem;
     color-scheme: var(--color-white);
     text-align: center;
+    padding: 2rem 0;
+    border-top: 2px solid var(--color-gray-900);
 }
 
 
