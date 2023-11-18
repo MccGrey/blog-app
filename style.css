@@ -251,6 +251,15 @@ transition: filter 500ms ease;
 
 }
 
+.featured  .head-tag {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color-scheme: var(--color-white);
+    text-align: center;
+
+    
+}
+
 .featured__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -263,11 +272,23 @@ transition: filter 500ms ease;
 
 /* post */
 
+.posts {
+     padding: 2rem 0;
+    border-top: 2px solid var(--color-gray-900);
+}
+
 .posts__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     margin-bottom: 5rem;
+}
+
+.posts .posts-tag {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color-scheme: var(--color-white);
+    text-align: center;
 }
 
 
