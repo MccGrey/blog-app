@@ -55,6 +55,10 @@
     --card-border-radius-5: 5rem;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 * {
     margin: 0;
@@ -85,6 +89,11 @@ body {
 section {
     margin-top: 3rem;
     width: 100vw;
+}
+
+/* add to post on index if theres no featured post. eg search results page */
+.section__extra-margin {
+    margin-top: 7rem;
 }
 
 h1, h2, h3, h4, h5 {
@@ -119,7 +128,6 @@ a {
 img {
     display: block;
     object-fit: cover;
-    
     width: 100%;
 
 }
@@ -228,7 +236,7 @@ nav button {
 
 .post__thumbnail {
     border-radius: var(--card-border-radius-5) 0;
-    border: 1rem solid var(--color-gray-900);
+    border: .6rem solid var(--color-gray-900);
     overflow: hidden;
     margin-bottom: 1.6rem;
 }
@@ -260,7 +268,7 @@ transition: filter 500ms ease;
 }
 
 .featured  .head-tag {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
     color-interpolation-filters: var(--color-white);
     text-align: center;
@@ -309,12 +317,12 @@ transition: filter 500ms ease;
 }
 
 .posts .posts-tag {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
     color: var(--color-gray-900);
     text-align: center;
     padding: 2rem 0;
-    border-top: 2px solid var(--color-gray-900);
+    border-top: 1px solid var(--color-gray-900);
 }
 
 
@@ -322,8 +330,8 @@ transition: filter 500ms ease;
 
 .category__buttons {
     padding: 4rem 0;
-    border-top: 2px solid var(--color-gray-900);
-    border-bottom: 2px solid var(--color-gray-900);
+    border-top: 1px solid var(--color-gray-900);
+    border-bottom: 1px solid var(--color-gray-900);
 }
 
 .category__buttons-container {
@@ -528,6 +536,13 @@ color: var(--color-primary);
     background: var(--color-green-light);
     color: var(--color-green);
 }
+
+/* center text of alert .eg empty catergory posts page*/
+.alert__message.lg {
+    text-align: center;
+}
+
+
 form {
     display: flex;
     flex-direction: column;
