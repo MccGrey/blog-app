@@ -41,9 +41,6 @@
 
 
 
-
-
-
     --transition: all 300ms ease;
 
     --container-width-lg: 74%;
@@ -531,7 +528,7 @@ color: var(--color-primary);
 .category_title {
     height: 10rem;
     margin-top: 4.5rem;
-    background: var(--color-gray-900);
+    background: var(--color-white);
     display: grid;
     place-items: center;
 }
@@ -970,6 +967,16 @@ display: inline-block;
 
 #hide__sidebar-btn {
     display: none;
+}
+
+.singlepost__container {
+    width: var(--conatiner-width-md);
+    background: var(--color-gray-900);
+    padding: 1rem 2rem 2rem;
+}
+
+.singlepost__container h2, .singlepost__container h5 {
+    color: var(--color-white);
 }
 
 }
