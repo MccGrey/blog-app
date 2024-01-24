@@ -233,8 +233,8 @@ nav button {
     background-image: linear-gradient(#fff, #fff);
     background-repeat: no-repeat;
     -webkit-background-clip: text;
-    background-position: -1010px 0;
-    animation: backcolor 5s linear infinite alternate;
+    background-position: -980px 0;
+    animation: backcolor 3s linear infinite alternate;
 }
 
 @keyframes backcolor {
@@ -1171,6 +1171,9 @@ display: inline-block;
 
 .form__name input[type="text"] {
     width: 100%;
+}
+.header-text {
+    font-size: 5rem;
 }
 
 }
