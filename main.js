@@ -51,3 +51,21 @@ function read() {
     i = 0;
   }
 }
+
+function search() {
+  let filter = document.getElementById("find").value.toUpperCase();
+  let item = document.querySelectorAll(".post");
+  let l = document.getElementsByTagName("h3");
+
+  for (var i = 0; i <= l.length; i++) {
+    let a = item[i].getElementsByTagName("h3")[0];
+
+    let value = a.innerHTML || a.innerHTML || a.textContent;
+
+    if (value.toUpperCase().indexOf(filter) > -1) {
+      item[i].style.display = "";
+    } else {
+      item[i].style.display = "none";
+    }
+  }
+}

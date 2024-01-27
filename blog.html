@@ -52,7 +52,13 @@
       <form class="container search__bar-container" action="">
         <div>
           <i class="uil uil-search"></i>
-          <input type="search" name="" placeholder="search" />
+          <input
+            type="search"
+            name=""
+            id="find"
+            placeholder="search"
+            onkeyup="search()"
+          />
         </div>
         <button type="submit" class="btn">Go</button>
       </form>
