@@ -418,7 +418,14 @@ transition: filter 500ms ease;
     gap: 2rem;
     height: 30rem;
     margin: 7rem auto;
+    
     border-radius: var(--card-border-radius-2);
+}
+
+.map {
+
+    margin-top: 12rem;
+    margin-left: 12rem;
 }
 /* aside */
 .contact__aside {
@@ -642,6 +649,12 @@ color: var(--color-primary);
 .singlepost__container p {
     margin-top: 1rem;
     line-height: 1.7;
+}
+/* embed map */
+iframe {
+    width: 80%;
+   
+   
 }
 
 
@@ -1025,6 +1038,13 @@ text-align: center;
     margin-right: 1.5rem;
 }
 
+.map {
+    width: 90%;
+    
+    margin-top: 22rem;
+    margin-left: 8rem;
+}
+
 }
 
 
@@ -1175,6 +1195,13 @@ display: inline-block;
 }
 .header-text {
     font-size: 5rem;
+}
+
+.map {
+    
+    width: 100%;
+    margin-top: 60rem;
+    margin-left: 4rem;
 }
 
 }
