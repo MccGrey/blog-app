@@ -197,6 +197,7 @@ nav button {
 .nav__profile:hover > ul {
     visibility: visible;
     opacity: 1;
+    
 }
 
 .nav__profile ul li a { 
@@ -480,7 +481,7 @@ margin-bottom: 1rem;
 /*contact form */
 .contact__form {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     gap: 1.2rem;
     margin-right: 4rem;
 }
@@ -1202,6 +1203,16 @@ display: inline-block;
     width: 100%;
     margin-top: 60rem;
     margin-left: 4rem;
+}
+
+.header-text {
+   
+    font-size: 4rem;
+    letter-spacing: 4px;
+    font-family: 'Alfa Slab One', serif;
+   
+    color: white;
+    
 }
 
 }
