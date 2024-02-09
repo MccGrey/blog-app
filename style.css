@@ -178,6 +178,7 @@ nav button {
 
 .nav__items li {
     font-weight: bold;
+    font-size: 1.2rem;
 }
 
 .nav__profile {
@@ -553,6 +554,7 @@ footer h4 {
 
 footer ul li {
     padding: 0.4rem 0;
+    font-weight: bold;
 }
 
 footer ul a {
